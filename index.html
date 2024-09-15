@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="music_player">
+        <nav>
+          <div class="circle">
+            <i class="bx bxs-chevron-left"></i>
+          </div>
+          <div class="circle">
+            <i class="bx bx-menu"></i>
+          </div>
+        </nav>
+        <div class="inputAndButton">
+          <input
+            type="text"
+            placeholder="Write the name of song.."
+            id="inputForSong"
+            class="inputPlace"
+          />
+          <button class="btnInput">
+            <i class="bx bx-search"></i>
+          </button>
+        </div>
+        
+        <h1 id="authorOfSong">Billie Eilish</h1>
+        <p id="nameSong">Bellyache</p>
+        <audio controls id="song">
+          
+        </audio>
+        <input type="range" value="0" id="progress" />
+        <div class="controls">
+          <div><i class="bx bxs-chevrons-left" id="chevrons-left"></i></div>
+          <div>
+            <i class="bx bx-pause" id="cntlIcon"></i>
+          </div>
+          <div><i class="bx bxs-chevrons-right" id="chevrons-right"></i></div>
+        </div>
+        <div class="recomendations">
+          
+          <!-- <span>Billie Eilish - bellyache</span>
+          <span>Billie Eilish - bad guy</span> -->
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+  </body>
+</html>
+
+
